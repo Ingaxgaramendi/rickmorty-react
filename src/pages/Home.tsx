@@ -1,11 +1,7 @@
 import { useEffect, useState } from "react";
 import type { Character, ApiResponse } from "../types/character";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "../components/ui/card";
+// 🟢 Solución: Se eliminó CardContent que no se usaba para evitar el error de TypeScript
+import { Card, CardHeader, CardTitle } from "../components/ui/card";
 
 export default function Home() {
   const [characters, setCharacters] = useState<Character[]>([]);
@@ -25,7 +21,7 @@ export default function Home() {
           Rick & Morty Universe 🛸
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          Explora los personajes, dimensiones y locuras de la serie animada más
+          Explora los personajes, dimensions y locuras de la serie animada más
           retorcida del multiverso. Proyecto educativo en React + Vite.
         </p>
       </section>
