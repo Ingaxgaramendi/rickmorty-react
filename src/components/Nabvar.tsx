@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 
 export default function Navbar() {
   return (
@@ -13,7 +13,7 @@ export default function Navbar() {
             <Link to="/">Home</Link>
           </Button>
           <Button variant="ghost" asChild>
-            <Link to="/entities">Entities</Link>
+            <Link to="/entities">Characters Info</Link>
           </Button>
         </div>
       </div>

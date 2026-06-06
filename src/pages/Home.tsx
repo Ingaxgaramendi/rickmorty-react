@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
-import { Character, ApiResponse } from "@/types/character";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import type { Character, ApiResponse } from "../types/character";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "../components/ui/card";
 
 export default function Home() {
   const [characters, setCharacters] = useState<Character[]>([]);
