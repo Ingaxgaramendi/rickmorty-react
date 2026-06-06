@@ -9,4 +9,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    // Usamos esbuild que acabamos de instalar para que no use LightningCSS
+    cssMinify: "esbuild",
+  },
 });
