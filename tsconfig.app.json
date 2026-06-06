@@ -6,7 +6,10 @@
     "module": "esnext",
     "types": ["vite/client"],
     "skipLibCheck": true,
-
+    /* 🟢 FORZAMOS EL ALIAS AQUÍ CON RUTA RELATIVA */
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
