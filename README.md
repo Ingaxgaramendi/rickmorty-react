@@ -79,5 +79,5 @@ Sigue estas instrucciones para clonar y levantar el entorno de desarrollo en tu 
 
 > ⚠️ **Nota:** Asegúrate de reemplazar los siguientes marcadores de posición con tus enlaces reales antes de la entrega final.
 
-- **Despliegue en Producción (Deploy):** [Visita la aplicación en vivo aquí](PROYECTO_DESPLEGADO_EN_VERCEL_O_NETLIFY)
-- **Video Demostrativo (YouTube):** [Mira el funcionamiento completo de 1-2 min](LINK_A_TU_VIDEO_DE_YOUTUBE)
+- **Despliegue en Producción (Deploy):** [Visita la aplicación en vivo aquí](https://rickmorty-react-3c9s6d5am-figmitas.vercel.app)
+- **Video Demostrativo (YouTube):** [Mira el funcionamiento completo de 1-2 min](https://youtu.be/AsCn7-zZ4lE)

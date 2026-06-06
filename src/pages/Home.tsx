@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import type { Character, ApiResponse } from "../types/character";
-// 🟢 Solución: Se eliminó CardContent que no se usaba para evitar el error de TypeScript
 import { Card, CardHeader, CardTitle } from "../components/ui/card";
 
 export default function Home() {
